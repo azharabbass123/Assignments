@@ -8,8 +8,6 @@ function largest_product(arr){
         if(product > largest_product){
             largest_product = product
         }
-
-        
     }
     return largest_product;
 }
