@@ -15,9 +15,9 @@
         Rotate Array
     </h4>
 
-
     <script>
         function rotateArray(arr, num) {
+            num = num % arr.length;
             let rotatedArray = [...arr];
             for (let i = 0; i < num; i++) {
                 let el = rotatedArray.pop();
