@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Combine-Arrays</title>
-</head>
-
-<body>
-    <h1>Task-2</h1>
-    <h4>Combine two arrays</h4>
-    
-    <script>
         // Combine Arrays
         function combineArrays(arr1, arr2) {
             // To remove duplicates we can use 'Set class'
@@ -19,7 +6,13 @@
             return combinedArr;
         }
         console.log(combineArrays([1, 2, 3, 4], [4, 5, 6]));
-    </script>
-</body>
 
-</html>
+        // Combine arrays with a diffrent method.
+        function combineArrays2(arr1, arr2) {
+            for (let i = 0; i < arr2.length; i++) {
+                arr1.push(arr2[i])
+            };
+            return arr1;
+        }
+        console.log(combineArrays2([1, 2, 3], [4, 5, 6]));
+    

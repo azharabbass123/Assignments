@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nested-for-loop</title>
-</head>
-<body>
-    <h1>
-        Task-4
-    </h1>
-    <h4>
-        Nested-for-loop
-    </h4>
-    <script>
         function nestedLoops() {
             for (let i = 1; i <= 5; i++) {
                 let output = '';
@@ -27,7 +12,4 @@
             };
         };
         nestedLoops();
-    </script>
-</body>
-
-</html>
+    

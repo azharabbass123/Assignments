@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rotate array</title>
-</head>
-
-<body>
-    <h1>
-        Task-3
-    </h1>
-    <h4>
-        Rotate Array
-    </h4>
-
-    <script>
         function rotateArray(arr, num) {
             num = num % arr.length;
             let rotatedArray = [...arr];
@@ -26,7 +9,4 @@
             return rotatedArray;
         }
         console.log(rotateArray([1, 2, 3, 4], 2));
-    </script>
-</body>
-
-</html>
+    
