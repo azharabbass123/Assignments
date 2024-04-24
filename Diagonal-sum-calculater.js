@@ -14,3 +14,7 @@ function diagonal_sum_calac(arr, n){
     return Math.abs(d1 - d2);
 }
 console.log(diagonal_sum_calac(array, 3));
+
+//     [11  2  4
+//       4  5  6
+//      10  8 -12] 
