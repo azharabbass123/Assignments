@@ -9,9 +9,11 @@ function diagonal_sum_calac(arr, n){
         d1 += arr[i][i];       //Sum of left to right diagonal
         d2 += arr[i][n -i -1]; //Sum of rigth to left diagonal
     }
-    //console.log(d1);
-    //console.log(d2);
-    return Math.abs(d1 - d2);
+    console.log(d1);
+    console.log(d2);
+    let d3 = (d2 - d1);
+     return d3 > 0 ? d3 : -d3 ;
+    //return Math.abs(d1 - d2);
 }
 console.log(diagonal_sum_calac(array, 3));
 
