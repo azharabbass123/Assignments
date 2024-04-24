@@ -1,6 +1,6 @@
 // Calcualte absolute sum of diagonal of given matric
 
-const array = [[11, 2, 4], [4, 7, 8], [2, 7, 3]];
+const array = [[11, 2, 4], [4, 5, 6], [10, 8, -12]];
 function diagonal_sum_calac(arr, n){
     let d1 = 0;
     let d2 = 0;
